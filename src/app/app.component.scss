@@ -1,5 +1,12 @@
-.container {}
+.container {
+    margin-top: 51px;
+}
 
-.mat-toolbar-row, .mat-toolbar-single-row {
+.mat-toolbar-row,
+.mat-toolbar-single-row {
     height: 51px;
+    background-color: #1c1817;
+    position: fixed;
+    top: 0;
+    color: #eec465
 }
