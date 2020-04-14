@@ -1,6 +1,10 @@
-<div class="size-full-width">
-    <img class="size-full-width" src="../../assets/images/gif/HERO.gif">
+<div class="full-width">
+    <img class="full-width" src="../../assets/images/gif/HERO.gif">
 </div>
 <div fxLayout="row wrap">
-    ssss
+    <div class="img-list-space" fxFlex="50" *ngFor="let item of images">
+        <div class="img-card">
+            <img class="img-size" [src]="item.url">
+        </div>
+    </div>
 </div>
